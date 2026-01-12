@@ -4,12 +4,6 @@ nullable = false
 description = "Specifies the name of the Key Vault."
 }
 
-variable "rg_name" {
-    type = string
-nullable = false
-description = "The name of the resource group in which to create the Key Vault."
-}
-
 variable "tags" {
     type = map(string)
 nullable = false
