@@ -1,4 +1,4 @@
-variable "name" {
+variable "resource_group_name" {
     type = string
 nullable = false
 description = "Specifies the name of the Key Vault."
