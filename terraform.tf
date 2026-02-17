@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    azurerm = {
+    mobileazure = {
       source = "localterraform.com/SSC/azurerm"
       version = ">= 4.4.0"
       }
